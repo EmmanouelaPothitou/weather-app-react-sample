@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: monteserrant;
+}
+
+.App {
+  text-align: center;
+  background-image: url(spring.jpg) ;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+
+.app-summer{
+  text-align: center;
+  background-image: url(summer.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+
+.app-autumn {
+  text-align: center;
+  background-image: url(autumn.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+
+.app-winter {
+  text-align: center;
+  background-image: url(winter.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease;
+}
+
+main {
+  min-height: 800px;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+  padding : 5% 10% 5% 10%;
+
+}
+
+.searchBox {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.searchBox .search {
+  display: block;
+  width: 100%;
+  height: 50px;
+
+  font-size: 25px;
+  border-radius: 0px 0px 15px 15px;
+  border: none;
+  background-color: #ffe2e2;
+  padding-left: 10px;
+  outline: none;
+ 
+}
+.searchBox .search:focus{
+  background-color: white;
+}
+
+.place{
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 2px 2px #8d93ab;
+}
+
+.date {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  font-style: italic;
+  text-shadow: 1px 1px #8d93ab;
+  padding-bottom: 10px;
+}
+
+.temp {
+  font-size: 110px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px  #8d93ab;
+
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.2) ;
+  margin: 30px 60px 15px 60px;
+}
+
+.weatherText {
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 2px 2px  #8d93ab;
+  font-style: italic;
+}
